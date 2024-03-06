@@ -62,7 +62,7 @@ body {
     width:400px;
     height: 50px;
     align-items: center;
-    margin: 5px 20px;
+    margin: 5px 0px;
 }
 
 .card__rated:nth-of-type(1){
@@ -83,6 +83,7 @@ body {
 .portfolio__container{
     display:grid;
     grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
     margin: 80px auto;
 }
 
@@ -99,6 +100,7 @@ body {
     background-color: hsl(300, 43%, 22%);
     height:250px;
     width: 300px;
+    /* width: 90%; */
 
     padding: 10px 50px;
 
@@ -125,7 +127,7 @@ body {
 {  
     .container{
         max-width: 375px;
-        margin: 100px auto;
+        margin: 100px;
     }
 
     .hero {
